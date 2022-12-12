@@ -1,9 +1,9 @@
-FROM  python:alpine3.16
+FROM 240936149117.dkr.ecr.ap-southeast-1.amazonaws.com/python
 
-RUN mkdir /app
 WORKDIR  /app
 
 COPY requirements.txt requirements.txt
+# COPY .aws .
 
 RUN pip install -r requirements.txt
 
