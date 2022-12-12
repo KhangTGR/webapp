@@ -8,8 +8,8 @@ from flask_dynamo import Dynamo
 from boto3.dynamodb.conditions import Key
 import json
 
-os.environ['AWS_ACCESS_KEY_ID'] = "AKIATQGHJ4B6TPNRSHXN"
-os.environ['AWS_SECRET_ACCESS_KEY'] = "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"
+os.environ['AWS_ACCESS_KEY_ID'] = ""
+os.environ['AWS_SECRET_ACCESS_KEY'] = ""
 os.environ['AWS_REGION'] = "ap-southeast-1"
 
 app = Flask(__name__)
